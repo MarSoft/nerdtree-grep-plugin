@@ -3,6 +3,8 @@
 "A really rough integration of :grep with nerdtree. Adds a 'g' menu item that
 "prompts the user for a search pattern to use with :grep. :grep is run on the
 "selected dir (using the parent if a file is selected)
+" Originally written by scrooloose
+" (http://gist.github.com/205807)
 
 if exists("g:loaded_nerdtree_grep_menuitem")
     finish
